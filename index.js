@@ -69,7 +69,6 @@ function deleteTask(button) {
   saveTasks();
 }
 
-// Create a new task
 document.getElementById('btn-crear').addEventListener('click', function() {
   const text = document.getElementById('texto-tarjeta').value.trim();
   if (text !== '') {
@@ -79,5 +78,4 @@ document.getElementById('btn-crear').addEventListener('click', function() {
   }
 });
 
-// Load tasks on page load
 loadTasks();
